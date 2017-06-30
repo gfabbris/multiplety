@@ -1,7 +1,7 @@
 multiplety
 =========================
 
-Multiplet calculation of XAS and RIXS spectra
+Multiplet calculation of XAS and RIXS spectra using the Cowan's and Racer codes. These codes are not distributed here but are essential, please contact me for more information.
 
 Installation Instructions
 =========================
@@ -24,8 +24,10 @@ Installation Instructions
 2. Install package.
 
     Download and extract `multiplety package <https://github.com/gfabbris/multiplety>`_.
+    
+    Edit the atomic_calculation.py module to correct the folder for Cowan's and Racer codes. This module is located at 'multiplety-master/multiplety'. The global parameter 'install_folder' in line 50 needs to contain the correct folder for these atomic codes.
 
-    Change directory and install pyrixs and additional lmfit package:
+    Change directory and install pyrixs:
     ::
         cd multiplety-master
         python setup.py install
