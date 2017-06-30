@@ -25,7 +25,7 @@ Installation Instructions
 
     Download and extract `multiplety package <https://github.com/gfabbris/multiplety>`_.
     
-    Edit the atomic_calculation.py module to correct the folder for Cowan's and Racer codes. This module is located at 'multiplety-master/multiplety'. The global parameter 'install_folder' in line 50 needs to contain the correct folder for these atomic codes.
+    Edit the atomic_calculation.py module to correct the folder for Cowan's and Racer codes. This module is located at *multiplety-master/multiplety*. The global parameter *install_folder* in line 50 needs to contain the correct folder for these atomic codes.
 
     Change directory and install pyrixs:
     ::
