@@ -37,4 +37,4 @@ Installation Instructions
     ::
         jupyter notebook
 
-    Navigate to *notebooks* and click *example_xas*, *example_rixs* or e.
+    Navigate to *notebooks* and click *example_xas*, *example_rixs* or *example_rixs_dichroism*.
