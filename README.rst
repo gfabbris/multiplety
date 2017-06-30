@@ -23,7 +23,7 @@ Installation Instructions
 
 2. Install package.
 
-    Download and extract `multiplety package <https://github.com/mpmdean/pyrixs>`_.
+    Download and extract `multiplety package <https://github.com/gfabbris/multiplety>`_.
 
     Change directory and install pyrixs and additional lmfit package:
     ::
