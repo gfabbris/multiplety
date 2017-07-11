@@ -6,7 +6,7 @@
 
  ECHO:    0                         80998080            8065.47800     0000000        
  ECHO:    1     2 1 12 1 10         00      9 00000000 0 8065.4790 .00       1        
-1RCG MOD 9    LS COUPLING  NSCONF= 2 1 1    2 1 1     IABG=0   IV=0   119 000000009 49.0 49.0  PRINT=00000 500 1 0    TIME=38517.03
+1RCG MOD 9    LS COUPLING  NSCONF= 2 1 1    2 1 1     IABG=0   IV=0   119 000000009 49.0 49.0  PRINT=00000 500 1 0    TIME=59199.41
 
 0  K   J           CONFIGURATION                                   N   PAR   I   TERMS OF LI(NI) -----
 
@@ -95,7 +95,7 @@
 
 0 NTRMK=     1     1     1     1     1
 
- FINISHED PLEV at  0.004 min
+ FINISHED PLEV at  0.000 min
  F2(22)       PC(      5)     CAVE=   0.8888890                  DELT=    0.00 MIN       P 6   D 8
  F4(22)       PC(      5)     CAVE=   0.8888889                  DELT=    0.00 MIN       P 6   D 8
  ZETA 2       PC(     14)     CAVE=   0.0000000                  DELT=    0.00 MIN       P 6   D 8
@@ -113,17 +113,17 @@
 
  ------
 
-           TIME=    0.00 MIN
+           TIME=    0.01 MIN
  J= 3.0          CONFIGURATION         1    P 6   D 8   S 0   S 0   S 0   S 0   S 0   S 0
 
  ------
 
-           TIME=    0.00 MIN
+           TIME=    0.01 MIN
  J= 4.0          CONFIGURATION         1    P 6   D 8   S 0   S 0   S 0   S 0   S 0   S 0
 
  ------
 
-           TIME=    0.00 MIN
+           TIME=    0.01 MIN
   MUPOLE called (SHELL           2           2           0           0           2           2           2           4 )
  ECHO:NI2+ 2P05 3D09     6    0.0000   11.3921    0.1012    7.7213    5.7874HR99999999
 
@@ -189,5 +189,5 @@
  IGEN=           0  N=           0  II=           1  CERAS=  THIS WAS NOT A SPECTR CARD: END OF SPECTR.
  ECHO:                    -99999999.                                                  
 
-   at  0.008 min
+   at  0.004 min
  ECHO:   -1                                                                           

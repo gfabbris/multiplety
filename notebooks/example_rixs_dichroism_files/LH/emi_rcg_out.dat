@@ -6,7 +6,7 @@
 
  ECHO:    0                         80998080            8065.47800     0000000        
  ECHO:    1     2 1 12 1 10         00      9 00000000 0 8065.4790 .00       1        
-1RCG MOD 9    LS COUPLING  NSCONF= 2 1 1    2 1 1     IABG=0   IV=0   119 000000009 49.0 49.0  PRINT=00000 500 1 0    TIME=38473.03
+1RCG MOD 9    LS COUPLING  NSCONF= 2 1 1    2 1 1     IABG=0   IV=0   119 000000009 49.0 49.0  PRINT=00000 500 1 0    TIME=59159.27
 
 0  K   J           CONFIGURATION                                   N   PAR   I   TERMS OF LI(NI) -----
 
@@ -17,7 +17,7 @@
    2   1       P 5   D 9   S 0   S 0   S 0   S 0   S 0   S 0      14   -1        ALL
 
 
- FINISHED LNCUV at  0.000 min
+ FINISHED LNCUV at  0.004 min
  plev called            1
   PARAMETERS NEEDED: KLSC=           5  KJP=           9  KJK=           5
 
@@ -34,7 +34,7 @@
 
 0 NTRMK=     1     1     1     1     1
 
- FINISHED PLEV at  0.000 min
+ FINISHED PLEV at  0.004 min
  F2(22)       PC(      5)     CAVE=   0.8888890                  DELT=    0.00 MIN       P 6   D 8
  F4(22)       PC(      5)     CAVE=   0.8888889                  DELT=    0.00 MIN       P 6   D 8
  ZETA 2       PC(     14)     CAVE=   0.0000000                  DELT=    0.00 MIN       P 6   D 8
@@ -103,27 +103,27 @@
 
  ------
 
-           TIME=    0.00 MIN
+           TIME=    0.01 MIN
  J= 1.0          CONFIGURATION         1    P 5   D 9   S 0   S 0   S 0   S 0   S 0   S 0
 
  ------
 
-           TIME=    0.00 MIN
+           TIME=    0.01 MIN
  J= 2.0          CONFIGURATION         1    P 5   D 9   S 0   S 0   S 0   S 0   S 0   S 0
 
  ------
 
-           TIME=    0.00 MIN
+           TIME=    0.01 MIN
  J= 3.0          CONFIGURATION         1    P 5   D 9   S 0   S 0   S 0   S 0   S 0   S 0
 
  ------
 
-           TIME=    0.00 MIN
+           TIME=    0.01 MIN
  J= 4.0          CONFIGURATION         1    P 5   D 9   S 0   S 0   S 0   S 0   S 0   S 0
 
  ------
 
-           TIME=    0.00 MIN
+           TIME=    0.01 MIN
   MUPOLE called (SHELL           2           2           0           0           2           2           2           4 )
  ECHO:NI2+ 2P06 3D08     4    0.0000   12.2341    7.5981    0.0824    0.0000HR99999999
 
@@ -189,5 +189,5 @@
  IGEN=           0  N=           0  II=           1  CERAS=  THIS WAS NOT A SPECTR CARD: END OF SPECTR.
  ECHO:                    -99999999.                                                  
 
-   at  0.008 min
+   at  0.012 min
  ECHO:   -1                                                                           
