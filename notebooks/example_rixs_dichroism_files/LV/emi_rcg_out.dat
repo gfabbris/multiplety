@@ -6,7 +6,7 @@
 
  ECHO:    0                         80998080            8065.47800     0000000        
  ECHO:    1     2 1 12 1 10         00      9 00000000 0 8065.4790 .00       1        
-1RCG MOD 9    LS COUPLING  NSCONF= 2 1 1    2 1 1     IABG=0   IV=0   119 000000009 49.0 49.0  PRINT=00000 500 1 0    TIME=43501.49
+1RCG MOD 9    LS COUPLING  NSCONF= 2 1 1    2 1 1     IABG=0   IV=0   119 000000009 49.0 49.0  PRINT=00000 500 1 0    TIME=38517.75
 
 0  K   J           CONFIGURATION                                   N   PAR   I   TERMS OF LI(NI) -----
 
@@ -62,7 +62,7 @@
 
  ------
 
-           TIME=    0.03 MIN
+           TIME=    0.00 MIN
   MUPOLE called (SHELL           1           1           0           0           2           2           2           4 )
  ECHO:NI2+ 2P06 3D08     4    0.0000   12.2341    7.5981    0.0824    0.0000HR99999999
 
@@ -93,37 +93,37 @@
 
 0 NTRMK=     1     1     1     1     1     1
 
- FINISHED PLEV at  0.035 min
- ZETA 1       PC(      2)     CAVE=   0.0000000                  DELT=    0.04 MIN       P 5   D 9
- ZETA 2       PC(      2)     CAVE=   0.0000000                  DELT=    0.04 MIN       P 5   D 9
- F2(12)       PC(      6)     CAVE=   0.0000000                  DELT=    0.04 MIN       P 5   D 9
- G1(12)       PC(      6)     CAVE=   3.0000002                  DELT=    0.04 MIN       P 5   D 9
- G3(12)       PC(      6)     CAVE=   1.9285717                  DELT=    0.04 MIN       P 5   D 9
+ FINISHED PLEV at  0.000 min
+ ZETA 1       PC(      2)     CAVE=   0.0000000                  DELT=    0.00 MIN       P 5   D 9
+ ZETA 2       PC(      2)     CAVE=   0.0000000                  DELT=    0.00 MIN       P 5   D 9
+ F2(12)       PC(      6)     CAVE=   0.0000000                  DELT=    0.00 MIN       P 5   D 9
+ G1(12)       PC(      6)     CAVE=   3.0000002                  DELT=    0.00 MIN       P 5   D 9
+ G3(12)       PC(      6)     CAVE=   1.9285717                  DELT=    0.00 MIN       P 5   D 9
  J= 0.0          CONFIGURATION         1    P 5   D 9   S 0   S 0   S 0   S 0   S 0   S 0
 
  ------
 
-           TIME=    0.04 MIN
+           TIME=    0.00 MIN
  J= 1.0          CONFIGURATION         1    P 5   D 9   S 0   S 0   S 0   S 0   S 0   S 0
 
  ------
 
-           TIME=    0.04 MIN
+           TIME=    0.00 MIN
  J= 2.0          CONFIGURATION         1    P 5   D 9   S 0   S 0   S 0   S 0   S 0   S 0
 
  ------
 
-           TIME=    0.04 MIN
+           TIME=    0.00 MIN
  J= 3.0          CONFIGURATION         1    P 5   D 9   S 0   S 0   S 0   S 0   S 0   S 0
 
  ------
 
-           TIME=    0.04 MIN
+           TIME=    0.00 MIN
  J= 4.0          CONFIGURATION         1    P 5   D 9   S 0   S 0   S 0   S 0   S 0   S 0
 
  ------
 
-           TIME=    0.04 MIN
+           TIME=    0.00 MIN
   MUPOLE called (SHELL           2           2           0           0           2           2           2           4 )
  ECHO:NI2+ 2P06 3D08     4    0.0000   12.2341    7.5981    0.0824    0.0000HR99999999
 
@@ -189,5 +189,5 @@
  IGEN=           0  N=           0  II=           1  CERAS=  THIS WAS NOT A SPECTR CARD: END OF SPECTR.
  ECHO:                    -99999999.                                                  
 
-   at  0.039 min
+   at  0.004 min
  ECHO:   -1                                                                           

@@ -6,7 +6,7 @@
 
  ECHO:    0                         80998080            8065.47800     0000000        
  ECHO:    1     2 1 12 1 10         00      9 00000000 0 8065.4790 .00       1        
-1RCG MOD 9    LS COUPLING  NSCONF= 2 1 1    2 1 1     IABG=0   IV=0   119 000000009 49.0 49.0  PRINT=00000 500 1 0    TIME=43457.41
+1RCG MOD 9    LS COUPLING  NSCONF= 2 1 1    2 1 1     IABG=0   IV=0   119 000000009 49.0 49.0  PRINT=00000 500 1 0    TIME=38473.03
 
 0  K   J           CONFIGURATION                                   N   PAR   I   TERMS OF LI(NI) -----
 
