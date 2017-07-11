@@ -48,13 +48,33 @@ The multiplet method starts by computing atomic wavefunctions via the Hartree-Fo
 
 \section{Practicalities}
 
-A typical experimental RIXS geometry is shown in Fig.~\ref{geom}. Vertically ($\sigma$) or horizontally ($\pi$) polarized x-rays are incident at $\theta_i$ on the sample, which has a $c$-axis surface normal. The incident x-ray electric field ($\vec{e}$) is always parallel to $b$ for $\sigma$ polarization. On the other hand, $\pi$ incident x-ray polarization probes a mixture of $\vec{e} \parallel c$ and $\vec{e}\parallel a$ contributions.  Such a geometry is handled via \texttt{generate\_polarization}($\theta_i$, $2\theta$). Other geometries can be handled by constructing and passing \texttt{absorption\_pol} and \texttt{emission\_pol} to 
-\texttt{calculate\_rixs} by hand. The codes use a basis with two helical and one linear component. If one considers a tetragonal system in which the $c$-axis is the expanded or compressed direction, light along the $a$, $b$, and $c$ axis directions are represented by:
-\begin{eqnarray}
-e_x &=& \frac{1}{\sqrt{2}} (1, 0, i ) \\
-e_y &=& \frac{1}{\sqrt{2}} (1, 0, -i ) \\
-e_z &=& (0, 1, 0)
-\end{eqnarray}
+\subsection{Polarization}
+
+A typical experimental RIXS geometry is shown in Fig.~\ref{geom}. Vertically ($\sigma$) or horizontally ($\pi$) polarized x-rays are incident at $\theta_i$ on the sample. The incident x-ray electric field ($\vec{e}$) is always parallel to $b$ for $\sigma$ polarization. On the other hand, $\pi$ incident x-ray polarization probes a mixture of $\vec{e} \parallel c$ and $\vec{e}\parallel a$ contributions.  Such a geometry is handled via \texttt{generate\_polarization}($\theta_i$, $2\theta$). Other geometries can be handled by constructing and passing \texttt{absorption\_pol} and \texttt{emission\_pol} to 
+\texttt{calculate\_rixs} by hand. The codes uses a basis with two helical and one linear component, which are defined with respect to the high symmetry direction of the atomic site, which we will refer to as the $c$-axis. Right and left circularly polarized light are represented as
+\begin{equation}
+(1, 0, 0)
+\end{equation}
+and
+\begin{equation}
+(0, 0, 1).
+\end{equation}
+Linear light along the $a$, $b$ and $c$ axes is then represented as
+\begin{equation}
+\frac{1}{\sqrt{2}}(1, 0, 1), 
+\end{equation}
+\begin{equation}
+\frac{i}{\sqrt{2}}(1, 0, -1),
+\end{equation}
+and
+\begin{equation}
+(0, 1, 0).
+\end{equation}
+
+For the case in which only one polarization component is measured, one should set this direction as \texttt{emission\_pol}. If the measurement is performed without polarization analysis \texttt{emission\_pol} should be set as a equal combination of both polarizations perpedicular to the direction of the light. 
+
+\subsection{Running the code}
+
 
 \begin{figure}
 \includegraphics[width=1.7 in]{suppl_geometry.pdf}
