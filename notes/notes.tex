@@ -49,7 +49,12 @@ The multiplet method starts by computing atomic wavefunctions via the Hartree-Fo
 \section{Practicalities}
 
 A typical experimental RIXS geometry is shown in Fig.~\ref{geom}. Vertically ($\sigma$) or horizontally ($\pi$) polarized x-rays are incident at $\theta_i$ on the sample, which has a $c$-axis surface normal. The incident x-ray electric field ($\vec{e}$) is always parallel to $b$ for $\sigma$ polarization. On the other hand, $\pi$ incident x-ray polarization probes a mixture of $\vec{e} \parallel c$ and $\vec{e}\parallel a$ contributions.  Such a geometry is handled via \texttt{generate\_polarization}($\theta_i$, $2\theta$). Other geometries can be handled by constructing and passing \texttt{absorption\_pol} and \texttt{emission\_pol} to 
-\texttt{calculate\_rixs} by hand.
+\texttt{calculate\_rixs} by hand. The codes use a basis with two helical and one linear component. If one considers a tetragonal system in which the $c$-axis is the expanded or compressed direction, light along the $a$, $b$, and $c$ axis directions are represented by:
+\begin{eqnarray}
+e_x &=& \frac{1}{\sqrt{2}} (1, 0, i ) \\
+e_y &=& \frac{1}{\sqrt{2}} (1, 0, -i ) \\
+e_z &=& (0, 1, 0)
+\end{eqnarray}
 
 \begin{figure}
 \includegraphics[width=1.7 in]{suppl_geometry.pdf}
