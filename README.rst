@@ -20,8 +20,8 @@ Installation Instructions
     Activate the environment:
     ::
         source activate <name_of_enviroment>
-
-3. Install gfortran.
+        
+2. Install gfortran.
     Download and install `gfortran <https://gcc.gnu.org/wiki/GFortranBinaries>`_.
 
 3. Install package.
