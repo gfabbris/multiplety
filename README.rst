@@ -21,10 +21,13 @@ Installation Instructions
     ::
         source activate <name_of_enviroment>
 
-2. Install package.
+2. Install gfortran
+    Download and install gfortran, available at <https://gcc.gnu.org/wiki/GFortranBinaries>`_.
+
+3. Install package.
 
     Download and extract `multiplety package <https://github.com/gfabbris/multiplety>`_.
-    
+
     Edit the atomic_calculation.py module to correct the folder for Cowan's and Racer codes. This module is located at *multiplety-master/multiplety*. The global parameter *install_folder* in line 50 needs to contain the correct folder for these atomic codes.
 
     Change directory and install pyrixs:
@@ -33,7 +36,7 @@ Installation Instructions
         python setup.py install
         conda install pandas
 
-3. Launch analysis session.
+4. Launch analysis session.
 
     Open jupyter:
     ::
