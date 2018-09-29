@@ -30,7 +30,7 @@ Installation Instructions
 
     Edit the atomic_calculation.py module to correct the folder for Cowan's and Racer codes. This module is located at *multiplety-master/multiplety*. The global parameter *install_folder* in line 50 needs to contain the correct folder for these atomic codes.
 
-    Change directory and install pyrixs:
+    Change directory and install multiplety:
     ::
         cd multiplety-master
         python setup.py install
