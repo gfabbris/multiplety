@@ -47,7 +47,7 @@ Butler | Mulliken
 """
 
 global install_folder
-install_folder = '/Users/gilbertofabbris/atomic_calculation_codes/'
+install_folder = '/Users/gfabbris/atomic_calculation_codes/'
 
 
 def edit_config(bra_config,ket_config):

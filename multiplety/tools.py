@@ -93,7 +93,7 @@ def instr_broad(calculation, incident_resolution = 0.1,
             gauss = np.exp(-((mid_in-x)**2/2/incident_resolution**2 + (mid_out-y)**2/2/emitted_resolution**2))
             gauss *= 1/2.0/np.pi/incident_resolution/emitted_resolution
 
-            broadened = signal.fftconvolve(calculation.as_matrix(), gauss, mode = 'same')
+            broadened = signal.fftconvolve(calculation.values, gauss, mode = 'same')
 
             broadened_calc = pd.DataFrame(broadened,index=calculation.index.values,columns=calculation.columns.values)
         else:
@@ -461,13 +461,13 @@ def plot_rixs(rixs, ax, cmap = 'jet', zmin = None, zmax = None):
     if zmin is None:
         zmin = 0
     if zmax is None:
-        zmax = rixs.as_matrix().max()
+        zmax = rixs.values.max()
 
     ein, eloss = np.meshgrid(rixs.columns.values,rixs.index.values)
 
     plt.sca(ax)
 
-    rixs_plot = plt.pcolor(ein, eloss, rixs.as_matrix(), cmap = cmap,
+    rixs_plot = plt.pcolor(ein, eloss, rixs.values, cmap = cmap,
                            vmin = zmin, vmax = zmax)
     plt.xlim(ein_min, ein_max)
     plt.ylim(eloss_min, eloss_max)
@@ -503,7 +503,7 @@ def plot_xas(xas, ax, kind = 'linear'):
 
     ein_min = xas.index.min()
     ein_max = xas.index.max()
-    ymax = xas.as_matrix().max()*1.05
+    ymax = xas.values.max()*1.05
 
     plt.sca(ax)
 
